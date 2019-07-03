@@ -18,7 +18,7 @@ environment:
     # QPDF: C:/qpdf
     TMPDIR: C:/Users/appveyor/AppData/Local/Temp
     CPATH: ../../extsoft/include
-    EOPTS: -mtune=haswell
+    EOPTS: -mtune=sandybridge
 
 install:
   # Install miktex to get pdflatex, if we don't get it from the cache
